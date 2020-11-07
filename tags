@@ -1,0 +1,253 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+CC	makefile	/^CC=gcc$/;"	m
+CFILES	makefile	/^CFILES=$(wildcard src\/base\/*.c)\\$/;"	m
+CFLAGS	makefile	/^CFLAGS=-g -I.\/src\/base\/ -I.\/src\/tools\/$/;"	m
+CLASS	src/base/comp-types.h	/^	CLASS = 7,$/;"	e	enum:LexType
+CLASS_VAR_DEC	src/base/comp-types.h	/^	CLASS_VAR_DEC = 8,$/;"	e	enum:LexType
+COMPTYPES_H	src/base/comp-types.h	/^#define COMPTYPES_H$/;"	d
+Cell	src/tools/hashmap.h	/^struct Cell $/;"	s
+DATA_LEN	src/tools/hashmap.h	/^#define DATA_LEN /;"	d
+DO_STATEMENT	src/base/comp-types.h	/^	DO_STATEMENT = 19,$/;"	e	enum:LexType
+DYNAMICARRAY_H	src/tools/dynamicarray.h	/^#define DYNAMICARRAY_H$/;"	d
+Data	src/tools/hashmap.h	/^typedef union Data$/;"	u
+Data	src/tools/hashmap.h	/^} Data;$/;"	t	typeref:union:Data
+DataType	src/tools/hashmap.h	/^typedef enum DataType$/;"	g
+DataType	src/tools/hashmap.h	/^} DataType;$/;"	t	typeref:enum:DataType
+EMPTY	src/base/comp-types.h	/^	EMPTY = 0, \/\/ terminator for empty set\/list$/;"	e	enum:LexType
+EXPRESSION	src/base/comp-types.h	/^	EXPRESSION = 21,$/;"	e	enum:LexType
+EXPRESSION_LIST	src/base/comp-types.h	/^	EXPRESSION_LIST = 24,$/;"	e	enum:LexType
+EXTFILE_H	src/tools/extfile.h	/^#define EXTFILE_H$/;"	d
+FLOAT	src/tools/hashmap.h	/^	FLOAT  = 0x2,$/;"	e	enum:DataType
+HASHMAP_H	src/tools/hashmap.h	/^#define HASHMAP_H$/;"	d
+HashTable	src/tools/hashmap.h	/^typedef struct HashTable$/;"	s
+HashTable	src/tools/hashmap.h	/^} HashTable;$/;"	t	typeref:struct:HashTable
+IDENTIFIER	src/base/comp-types.h	/^	IDENTIFIER = 3,$/;"	e	enum:LexType
+IF_STATEMENT	src/base/comp-types.h	/^	IF_STATEMENT = 17,$/;"	e	enum:LexType
+INT	src/tools/hashmap.h	/^	INT    = 0x1,$/;"	e	enum:DataType
+INTEGER_CONSTANT	src/base/comp-types.h	/^	INTEGER_CONSTANT = 4,$/;"	e	enum:LexType
+KEYWORD	src/base/comp-types.h	/^	KEYWORD = 1,$/;"	e	enum:LexType
+KEYWORD_CONSTANT	src/base/comp-types.h	/^	KEYWORD_CONSTANT = 6,$/;"	e	enum:LexType
+LENGTH	src/tools/hashmap.h	/^#define LENGTH /;"	d
+LET_STATEMENT	src/base/comp-types.h	/^	LET_STATEMENT = 16,$/;"	e	enum:LexType
+LexType	src/base/comp-types.h	/^typedef enum LexType$/;"	g
+LexType	src/base/comp-types.h	/^} LexType;$/;"	t	typeref:enum:LexType
+NONE	src/tools/hashmap.h	/^	NONE   = 0x0,$/;"	e	enum:DataType
+OP	src/base/comp-types.h	/^	OP = 25, \/\/ same as symbol$/;"	e	enum:LexType
+PARAMETER_LIST	src/base/comp-types.h	/^	PARAMETER_LIST = 11,$/;"	e	enum:LexType
+PARSER_H	src/base/parser.h	/^#define PARSER_H$/;"	d
+ParseNode	src/base/parser.h	/^typedef struct ParseNode$/;"	s
+ParseNode	src/base/parser.h	/^} ParseNode;$/;"	t	typeref:struct:ParseNode
+RETURN_STATEMENT	src/base/comp-types.h	/^	RETURN_STATEMENT = 20,$/;"	e	enum:LexType
+SEP_CHAR	src/base/main.c	/^#define SEP_CHAR /;"	d	file:
+STATEMENT	src/base/comp-types.h	/^	STATEMENT = 15,$/;"	e	enum:LexType
+STATEMENTS	src/base/comp-types.h	/^	STATEMENTS = 14,$/;"	e	enum:LexType
+STRING	src/tools/hashmap.h	/^	STRING = 0x4$/;"	e	enum:DataType
+STRING_CONSTANT	src/base/comp-types.h	/^	STRING_CONSTANT = 5,$/;"	e	enum:LexType
+ST_KEY_LEN	src/tools/symbol-table.h	/^#define ST_KEY_LEN /;"	d
+ST_LENGTH	src/tools/symbol-table.h	/^#define ST_LENGTH /;"	d
+SUBROUTINE_BODY	src/base/comp-types.h	/^	SUBROUTINE_BODY = 12,$/;"	e	enum:LexType
+SUBROUTINE_CALL	src/base/comp-types.h	/^	SUBROUTINE_CALL = 23,$/;"	e	enum:LexType
+SUBROUTINE_DEC	src/base/comp-types.h	/^	SUBROUTINE_DEC = 10,$/;"	e	enum:LexType
+SYMBOL	src/base/comp-types.h	/^	SYMBOL = 2,$/;"	e	enum:LexType
+Symbol	src/tools/symbol-table.h	/^typedef struct Symbol $/;"	s
+Symbol	src/tools/symbol-table.h	/^} Symbol;$/;"	t	typeref:struct:Symbol
+SymbolTable	src/tools/symbol-table.h	/^typedef struct SymbolTable$/;"	s
+SymbolTable	src/tools/symbol-table.h	/^} SymbolTable;$/;"	t	typeref:struct:SymbolTable
+TERM	src/base/comp-types.h	/^	TERM = 22,$/;"	e	enum:LexType
+TOKENIZER_H	src/base/tokenizer.h	/^#define TOKENIZER_H$/;"	d
+TYPE	src/base/comp-types.h	/^	TYPE = 9,$/;"	e	enum:LexType
+Token	src/base/tokenizer.h	/^typedef struct Token$/;"	s
+Token	src/base/tokenizer.h	/^} Token;$/;"	t	typeref:struct:Token
+TokenNode	src/base/tokenizer.h	/^typedef struct TokenNode$/;"	s
+TokenNode	src/base/tokenizer.h	/^} TokenNode;$/;"	t	typeref:struct:TokenNode
+TokenQueue	src/base/tokenizer.h	/^} TokenQueue;$/;"	t	typeref:struct:__anonc0886e370108
+UNARY_OP	src/base/comp-types.h	/^	UNARY_OP = 26,$/;"	e	enum:LexType
+VAR_DEC	src/base/comp-types.h	/^	VAR_DEC = 13,$/;"	e	enum:LexType
+WHILE_STATEMENT	src/base/comp-types.h	/^	WHILE_STATEMENT = 18,$/;"	e	enum:LexType
+XFILE	src/tools/extfile.h	/^typedef struct XFILE$/;"	s
+XFILE	src/tools/extfile.h	/^} XFILE;$/;"	t	typeref:struct:XFILE
+XML_DIR	src/base/main.c	/^#define XML_DIR /;"	d	file:
+__anonc0886e370108	src/base/tokenizer.h	/^{$/;"	s
+arg_num	src/tools/symbol-table.h	/^	int arg_num;$/;"	m	struct:SymbolTable	typeref:typename:int
+array	src/tools/dynamicarray.h	/^	struct ParseNode** array;$/;"	m	struct:darray	typeref:struct:ParseNode **
+back_char	src/tools/extfile.c	/^void back_char(XFILE* xf)$/;"	f	typeref:typename:void
+child	src/base/parser.h	/^	struct ParseNode* child;$/;"	m	struct:ParseNode	typeref:struct:ParseNode *
+col	src/tools/extfile.h	/^	int col;$/;"	m	struct:XFILE	typeref:typename:int
+col_beg	src/base/tokenizer.h	/^	int col_beg;$/;"	m	struct:Token	typeref:typename:int
+col_end	src/base/tokenizer.h	/^	int col_end;$/;"	m	struct:Token	typeref:typename:int
+col_lens	src/tools/extfile.h	/^	int* col_lens;$/;"	m	struct:XFILE	typeref:typename:int *
+comp	makefile	/^comp: $(obj)$/;"	t
+compile	old/p.c	/^ParseNode* compile(TokenQueue* queue)$/;"	f	typeref:typename:ParseNode *
+compile	src/base/parser.c	/^ParseNode* compile(TokenQueue* queue)$/;"	f	typeref:typename:ParseNode *
+compile_class	old/p.c	/^static bool compile_class(TokenQueue* queue, ParseNode* root)$/;"	f	typeref:typename:bool	file:
+compile_class	src/base/parser.c	/^static bool compile_class(TokenQueue* queue, ParseNode* root)$/;"	f	typeref:typename:bool	file:
+compile_className	old/p.c	/^static bool compile_className(TokenQueue* queue, ParseNode* node)$/;"	f	typeref:typename:bool	file:
+compile_className	src/base/parser.c	/^static bool compile_className(TokenQueue* queue, ParseNode* node)$/;"	f	typeref:typename:bool	file:
+compile_classVarDec	old/p.c	/^static bool compile_classVarDec(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_classVarDec	src/base/parser.c	/^static bool compile_classVarDec(TokenQueue* queue, ParseNode* parent, $/;"	f	typeref:typename:bool	file:
+compile_doStatement	old/p.c	/^static bool compile_doStatement(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_doStatement	src/base/parser.c	/^static bool compile_doStatement(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_element	old/p.c	/^static bool compile_element(TokenQueue* queue, ParseNode* parent, LexType type)$/;"	f	typeref:typename:bool	file:
+compile_element	src/base/parser.c	/^static bool compile_element(TokenQueue* queue, ParseNode* parent, LexType type)$/;"	f	typeref:typename:bool	file:
+compile_empty	old/p.c	/^static bool compile_empty(ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_empty	src/base/parser.c	/^static bool compile_empty(ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_expression	old/p.c	/^static bool compile_expression(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_expression	src/base/parser.c	/^static bool compile_expression(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_expressionList	old/p.c	/^static bool compile_expressionList(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_expressionList	src/base/parser.c	/^static bool compile_expressionList(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_identifier	old/p.c	/^static bool compile_identifier(TokenQueue* queue, ParseNode* node,$/;"	f	typeref:typename:bool	file:
+compile_identifier	src/base/parser.c	/^static bool compile_identifier(TokenQueue* queue, ParseNode* node, char** value,$/;"	f	typeref:typename:bool	file:
+compile_ifStatement	old/p.c	/^static bool compile_ifStatement(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_ifStatement	src/base/parser.c	/^static bool compile_ifStatement(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_int_const	old/p.c	/^static bool compile_int_const(TokenQueue* queue, ParseNode* node,$/;"	f	typeref:typename:bool	file:
+compile_int_const	src/base/parser.c	/^static bool compile_int_const(TokenQueue* queue, ParseNode* node, char** value,$/;"	f	typeref:typename:bool	file:
+compile_keyword	old/p.c	/^static bool compile_keyword(TokenQueue* queue, ParseNode* node,$/;"	f	typeref:typename:bool	file:
+compile_keyword	src/base/parser.c	/^static bool compile_keyword(TokenQueue* queue, ParseNode* node, char** value,$/;"	f	typeref:typename:bool	file:
+compile_keywordConstant	old/p.c	/^static bool compile_keywordConstant(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_keywordConstant	src/base/parser.c	/^static bool compile_keywordConstant(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_letStatement	old/p.c	/^static bool compile_letStatement(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_letStatement	src/base/parser.c	/^static bool compile_letStatement(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_matching_element	old/p.c	/^static bool compile_matching_element(TokenQueue* queue, ParseNode* parent,$/;"	f	typeref:typename:bool	file:
+compile_matching_element	src/base/parser.c	/^static bool compile_matching_element(TokenQueue* queue, ParseNode* parent, $/;"	f	typeref:typename:bool	file:
+compile_op	old/p.c	/^static bool compile_op(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_op	src/base/parser.c	/^static bool compile_op(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_parameterList	old/p.c	/^static bool compile_parameterList(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_parameterList	src/base/parser.c	/^static bool compile_parameterList(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_returnStatement	old/p.c	/^static bool compile_returnStatement(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_returnStatement	src/base/parser.c	/^static bool compile_returnStatement(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_statement	old/p.c	/^static bool compile_statement(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_statement	src/base/parser.c	/^static bool compile_statement(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_statements	old/p.c	/^static bool compile_statements(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_statements	src/base/parser.c	/^static bool compile_statements(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_str_const	old/p.c	/^static bool compile_str_const(TokenQueue* queue, ParseNode* node,$/;"	f	typeref:typename:bool	file:
+compile_str_const	src/base/parser.c	/^static bool compile_str_const(TokenQueue* queue, ParseNode* node, char** value,$/;"	f	typeref:typename:bool	file:
+compile_subroutineBody	old/p.c	/^static bool compile_subroutineBody(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_subroutineBody	src/base/parser.c	/^static bool compile_subroutineBody(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_subroutineCall	old/p.c	/^static bool compile_subroutineCall(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_subroutineCall	src/base/parser.c	/^static bool compile_subroutineCall(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_subroutineDec	old/p.c	/^static bool compile_subroutineDec(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_subroutineDec	src/base/parser.c	/^static bool compile_subroutineDec(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_subroutineName	old/p.c	/^static bool compile_subroutineName(TokenQueue* queue, ParseNode* node)$/;"	f	typeref:typename:bool	file:
+compile_subroutineName	src/base/parser.c	/^static bool compile_subroutineName(TokenQueue* queue, ParseNode* node)$/;"	f	typeref:typename:bool	file:
+compile_symbol	old/p.c	/^static bool compile_symbol(TokenQueue* queue, ParseNode* node,$/;"	f	typeref:typename:bool	file:
+compile_symbol	src/base/parser.c	/^static bool compile_symbol(TokenQueue* queue, ParseNode* node, char** value,$/;"	f	typeref:typename:bool	file:
+compile_term	old/p.c	/^static bool compile_term(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_term	src/base/parser.c	/^static bool compile_term(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_type	old/p.c	/^static bool compile_type(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_type	src/base/parser.c	/^static bool compile_type(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_unaryOp	old/p.c	/^static bool compile_unaryOp(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_unaryOp	src/base/parser.c	/^static bool compile_unaryOp(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_varDec	old/p.c	/^static bool compile_varDec(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_varDec	src/base/parser.c	/^static bool compile_varDec(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_varName	old/p.c	/^static bool compile_varName(TokenQueue* queue, ParseNode* node)$/;"	f	typeref:typename:bool	file:
+compile_varName	src/base/parser.c	/^static bool compile_varName(TokenQueue* queue, ParseNode* node)$/;"	f	typeref:typename:bool	file:
+compile_whileStatement	old/p.c	/^static bool compile_whileStatement(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+compile_whileStatement	src/base/parser.c	/^static bool compile_whileStatement(TokenQueue* queue, ParseNode* parent)$/;"	f	typeref:typename:bool	file:
+correct_terminator	src/base/tokenizer.c	/^bool correct_terminator(char c)$/;"	f	typeref:typename:bool
+current	src/base/tokenizer.h	/^	TokenNode* current;$/;"	m	struct:__anonc0886e370108	typeref:typename:TokenNode *
+darray	src/tools/dynamicarray.h	/^typedef struct darray$/;"	s
+darray	src/tools/dynamicarray.h	/^} darray;$/;"	t	typeref:struct:darray
+darray_insert	src/tools/dynamicarray.c	/^void darray_insert(darray* da, ParseNode* node)$/;"	f	typeref:typename:void
+data	src/tools/hashmap.h	/^	union Data data;$/;"	m	struct:Cell	typeref:union:Data
+delete_child_node	old/p.c	/^static void delete_child_node(ParseNode* parent)$/;"	f	typeref:typename:void	file:
+delete_child_node	src/base/parser.c	/^static void delete_child_node(ParseNode* parent)$/;"	f	typeref:typename:void	file:
+f	src/tools/hashmap.h	/^	double  f;$/;"	m	union:Data	typeref:typename:double
+field_num	src/tools/symbol-table.h	/^	int field_num;$/;"	m	struct:SymbolTable	typeref:typename:int
+fp	src/tools/extfile.h	/^	FILE* fp;$/;"	m	struct:XFILE	typeref:typename:FILE *
+get_col_lengths	src/tools/extfile.c	/^static void get_col_lengths(FILE* fp, int col_lens[])$/;"	f	typeref:typename:void	file:
+get_keywords	src/base/tokenizer.c	/^HashTable* get_keywords()$/;"	f	typeref:typename:HashTable *
+get_name	src/base/main.c	/^void get_name(char* dest, char* src)$/;"	f	typeref:typename:void
+get_num_lines	src/tools/extfile.c	/^static int get_num_lines(FILE* fp)$/;"	f	typeref:typename:int	file:
+get_parse_string	old/p.c	/^void get_parse_string(char* dest, LexType type)$/;"	f	typeref:typename:void
+get_parse_string	src/base/parser.c	/^void get_parse_string(char* dest, LexType type)$/;"	f	typeref:typename:void
+get_symbols	src/base/tokenizer.c	/^HashTable* get_symbols()$/;"	f	typeref:typename:HashTable *
+get_token	src/base/tokenizer.c	/^Token get_token(XFILE* xf)$/;"	f	typeref:typename:Token
+get_token_string	src/base/tokenizer.c	/^void get_token_string(char* dest, LexType type)$/;"	f	typeref:typename:void
+grab_id_and_kw	src/base/tokenizer.c	/^char* grab_id_and_kw(XFILE* xf)$/;"	f	typeref:typename:char *
+grab_int_const	src/base/tokenizer.c	/^char* grab_int_const(XFILE* xf)$/;"	f	typeref:typename:char *
+grab_string_const	src/base/tokenizer.c	/^char* grab_string_const(XFILE* xf)$/;"	f	typeref:typename:char *
+grab_symbol	src/base/tokenizer.c	/^char* grab_symbol(XFILE* xf)$/;"	f	typeref:typename:char *
+hash_string	src/tools/hashmap.c	/^uint32_t hash_string(char* s)$/;"	f	typeref:typename:uint32_t
+head	src/base/tokenizer.h	/^	TokenNode* head;$/;"	m	struct:__anonc0886e370108	typeref:typename:TokenNode *
+ht_copy_data	src/tools/hashmap.c	/^void ht_copy_data(Data* dest, void* src, DataType type)$/;"	f	typeref:typename:void
+ht_delete	src/tools/hashmap.c	/^int ht_delete(HashTable* ht, char* key)$/;"	f	typeref:typename:int
+ht_exists	src/tools/hashmap.c	/^bool ht_exists(HashTable* ht, char* key)$/;"	f	typeref:typename:bool
+ht_find	src/tools/hashmap.c	/^bool ht_find(HashTable* ht, char* key, void* data)$/;"	f	typeref:typename:bool
+ht_insert	src/tools/hashmap.c	/^void ht_insert(HashTable* ht, char* key, void* data)$/;"	f	typeref:typename:void
+i	src/tools/hashmap.h	/^	int32_t i;$/;"	m	union:Data	typeref:typename:int32_t
+init_ParseNode	old/p.c	/^ParseNode* init_ParseNode(LexType type)$/;"	f	typeref:typename:ParseNode *
+init_ParseNode	src/base/parser.c	/^ParseNode* init_ParseNode(LexType type)$/;"	f	typeref:typename:ParseNode *
+init_cell	src/tools/hashmap.c	/^struct Cell* init_cell(char key[], void* data, DataType type)$/;"	f	typeref:struct:Cell *
+init_child_node	old/p.c	/^static ParseNode* init_child_node(ParseNode* parent, LexType type)$/;"	f	typeref:typename:ParseNode *	file:
+init_child_node	src/base/parser.c	/^static ParseNode* init_child_node(ParseNode* parent, LexType type)$/;"	f	typeref:typename:ParseNode *	file:
+init_darray	src/tools/dynamicarray.c	/^darray* init_darray(size_t init_size)$/;"	f	typeref:typename:darray *
+init_ht	src/tools/hashmap.c	/^HashTable* init_ht(DataType type)$/;"	f	typeref:typename:HashTable *
+init_st	src/tools/symbol-table.c	/^SymbolTable* init_st()$/;"	f	typeref:typename:SymbolTable *
+init_symbol	src/tools/symbol-table.c	/^Symbol* init_symbol(SymbolTable* st, char* name, char* type, char* kind)$/;"	f	typeref:typename:Symbol *
+init_xfile	src/tools/extfile.c	/^XFILE init_xfile(FILE* fp, char* name)$/;"	f	typeref:typename:XFILE
+is_keyword	src/base/tokenizer.c	/^bool is_keyword(char* s)$/;"	f	typeref:typename:bool
+is_symbol	src/base/tokenizer.c	/^bool is_symbol(char c)$/;"	f	typeref:typename:bool
+key	src/tools/hashmap.h	/^	char key[DATA_LEN];$/;"	m	struct:Cell	typeref:typename:char[]
+keyword_insert	src/base/tokenizer.c	/^#define keyword_insert(/;"	d	file:
+kind	src/tools/symbol-table.h	/^	char* kind;$/;"	m	struct:Symbol	typeref:typename:char *
+line	src/tools/extfile.h	/^	int line;$/;"	m	struct:XFILE	typeref:typename:int
+line_num	src/base/tokenizer.h	/^	int line_num;$/;"	m	struct:Token	typeref:typename:int
+local_num	src/tools/symbol-table.h	/^	int local_num;$/;"	m	struct:SymbolTable	typeref:typename:int
+look_ahead	old/p.c	/^static bool look_ahead(TokenQueue* queue, int amount, int arg_count, ...)$/;"	f	typeref:typename:bool	file:
+look_ahead	src/base/parser.c	/^static bool look_ahead(TokenQueue* queue, int amount, int arg_count, ...)$/;"	f	typeref:typename:bool	file:
+main	src/base/main.c	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
+name	src/tools/extfile.h	/^	char* name;$/;"	m	struct:XFILE	typeref:typename:char *
+name	src/tools/symbol-table.h	/^	char* name;$/;"	m	struct:Symbol	typeref:typename:char *
+next	src/base/tokenizer.h	/^	struct TokenNode* next;$/;"	m	struct:TokenNode	typeref:struct:TokenNode *
+next	src/tools/hashmap.h	/^	struct Cell* next;$/;"	m	struct:Cell	typeref:struct:Cell *
+next	src/tools/symbol-table.h	/^	struct Symbol* next;$/;"	m	struct:Symbol	typeref:struct:Symbol *
+next_char	src/tools/extfile.c	/^char next_char(XFILE* xf)$/;"	f	typeref:typename:char
+next_sibling	src/base/parser.h	/^	struct ParseNode* next_sibling;$/;"	m	struct:ParseNode	typeref:struct:ParseNode *
+num	src/tools/symbol-table.h	/^	int num;$/;"	m	struct:Symbol	typeref:typename:int
+obj	makefile	/^obj=$(CFILES:.c=.o)$/;"	m
+print_indent	old/p.c	/^void print_indent(FILE* f, int lvl)$/;"	f	typeref:typename:void
+print_indent	src/base/parser.c	/^void print_indent(FILE* f, int lvl)$/;"	f	typeref:typename:void
+print_token	src/base/tokenizer.c	/^void print_token(FILE* f, Token token)$/;"	f	typeref:typename:void
+print_token_xml	src/base/tokenizer.c	/^void print_token_xml(FILE* f, TokenQueue* queue)$/;"	f	typeref:typename:void
+print_tree	old/p.c	/^void print_tree(FILE* f, ParseNode* node)$/;"	f	typeref:typename:void
+print_tree	src/base/parser.c	/^void print_tree(FILE* f, ParseNode* node)$/;"	f	typeref:typename:void
+print_tree_inner	old/p.c	/^static void print_tree_inner(FILE* f, ParseNode* node, int indent_lvl)$/;"	f	typeref:typename:void	file:
+print_tree_inner	src/base/parser.c	/^static void print_tree_inner(FILE* f, ParseNode* node, int indent_lvl)$/;"	f	typeref:typename:void	file:
+seek_next_token	src/base/tokenizer.c	/^bool seek_next_token(XFILE* xf)$/;"	f	typeref:typename:bool
+size	src/tools/dynamicarray.h	/^	size_t size;$/;"	m	struct:darray	typeref:typename:size_t
+skip_comment	src/base/tokenizer.c	/^bool skip_comment(XFILE* xf)$/;"	f	typeref:typename:bool
+st_clear	src/tools/symbol-table.c	/^bool st_clear(SymbolTable* st)$/;"	f	typeref:typename:bool
+st_exists	src/tools/symbol-table.c	/^bool st_exists(SymbolTable* st, char* name)$/;"	f	typeref:typename:bool
+st_find	src/tools/symbol-table.c	/^bool st_find(SymbolTable* st, Symbol** symbol, char* name)$/;"	f	typeref:typename:bool
+st_free_row	src/tools/symbol-table.c	/^bool st_free_row(Symbol* symbol)$/;"	f	typeref:typename:bool
+st_hash	src/tools/symbol-table.c	/^uint32_t st_hash(char* s)$/;"	f	typeref:typename:uint32_t
+st_insert	src/tools/symbol-table.c	/^bool st_insert(SymbolTable* st, char* name, char* type, char* kind)$/;"	f	typeref:typename:bool
+st_print	src/tools/symbol-table.c	/^bool st_print(SymbolTable* st)$/;"	f	typeref:typename:bool
+static_num	src/tools/symbol-table.h	/^	int static_num;$/;"	m	struct:SymbolTable	typeref:typename:int
+str	src/tools/hashmap.h	/^	char    str[DATA_LEN];$/;"	m	union:Data	typeref:typename:char[]
+symbol_free	src/tools/symbol-table.c	/^bool symbol_free(Symbol* symbol)$/;"	f	typeref:typename:bool
+symbol_insert	src/base/tokenizer.c	/^#define symbol_insert(/;"	d	file:
+table	src/tools/hashmap.h	/^	struct Cell* table[LENGTH];$/;"	m	struct:HashTable	typeref:struct:Cell * []
+table	src/tools/symbol-table.h	/^	Symbol** table;$/;"	m	struct:SymbolTable	typeref:typename:Symbol **
+tail	src/base/tokenizer.h	/^	TokenNode* tail;$/;"	m	struct:__anonc0886e370108	typeref:typename:TokenNode *
+token	src/base/tokenizer.h	/^	Token token;$/;"	m	struct:TokenNode	typeref:typename:Token
+token_copy	src/base/tokenizer.c	/^void token_copy(Token** dest, Token* src)$/;"	f	typeref:typename:void
+token_dequeue	src/base/tokenizer.c	/^bool token_dequeue(TokenQueue* queue, Token* token)$/;"	f	typeref:typename:bool
+token_enqueue	src/base/tokenizer.c	/^bool token_enqueue(TokenQueue* queue, Token token)$/;"	f	typeref:typename:bool
+tokenize	src/base/tokenizer.c	/^TokenQueue* tokenize(FILE* in, FILE* out)$/;"	f	typeref:typename:TokenQueue *
+type	src/base/parser.h	/^	LexType type;	$/;"	m	struct:ParseNode	typeref:typename:LexType
+type	src/base/tokenizer.h	/^	LexType type;$/;"	m	struct:Token	typeref:typename:LexType
+type	src/tools/hashmap.h	/^	DataType type;	$/;"	m	struct:HashTable	typeref:typename:DataType
+type	src/tools/symbol-table.h	/^	char* type;$/;"	m	struct:Symbol	typeref:typename:char *
+used	src/tools/dynamicarray.h	/^	size_t used;$/;"	m	struct:darray	typeref:typename:size_t
+value	src/base/parser.h	/^	char* value; \/\/ only leaf nodes have a value$/;"	m	struct:ParseNode	typeref:typename:char *
+value	src/base/tokenizer.h	/^	char* value;	$/;"	m	struct:Token	typeref:typename:char *
+xfgetc	src/tools/extfile.c	/^char xfgetc(XFILE* xf)$/;"	f	typeref:typename:char
+xfgetc_EOF	src/tools/extfile.c	/^char xfgetc_EOF(XFILE* xf)$/;"	f	typeref:typename:char

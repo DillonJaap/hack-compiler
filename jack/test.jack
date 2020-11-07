@@ -1,0 +1,34 @@
+class classname { 
+	static int VARNAME1;
+	static int VARNAME2;
+	function void fart(int int_var, char char_var) {
+		var int cool, coolio;
+		var char c, b;
+
+		let c = expression;
+		let c[expression] = expression;
+
+		if (expression) {
+			let c = expression;
+		}
+		else {
+			let c = expression;
+		}
+
+		while (expression)
+		{
+			if (expression) {
+				let c = expression;
+			}
+		}
+
+		do subroutineCall;
+		return expression;
+	}
+
+	constructor int(int param1, bool param2) {
+		var int cool2, coolio2;
+		var char g, h;
+		return;
+	}
+}

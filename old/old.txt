@@ -1,0 +1,110 @@
+	/*
+	ht_insert(symbols, "(",  (void*)SYM_OPAREN);
+	ht_insert(symbols, ")",  (void*)SYM_CPAREN);
+	ht_insert(symbols, "[",  (void*)SYM_OBRACK);
+	ht_insert(symbols, "]",  (void*)SYM_CBRACK);
+	ht_insert(symbols, "{",  (void*)SYM_OCBRACK);
+	ht_insert(symbols, "}",  (void*)SYM_CCBRACK);
+	ht_insert(symbols, ".",  (void*)SYM_PERIOD);
+	ht_insert(symbols, ",",  (void*)SYM_COMMA);
+	ht_insert(symbols, ";",  (void*)SYM_SEMI);
+	ht_insert(symbols, "+",  (void*)SYM_PLUS);
+	ht_insert(symbols, "-",  (void*)SYM_MINUS);
+	ht_insert(symbols, "*",  (void*)SYM_MULT);
+	ht_insert(symbols, "/",  (void*)SYM_DIV);
+	ht_insert(symbols, "|",  (void*)SYM_OR);
+	ht_insert(symbols, "&",  (void*)SYM_AND);
+	ht_insert(symbols, "<",  (void*)SYM_LT);
+	ht_insert(symbols, ">",  (void*)SYM_GT);
+	ht_insert(symbols, "\"", (void*)SYM_QUOT);
+	ht_insert(symbols, "=",  (void*)SYM_EQUAL);
+	ht_insert(symbols, "~",  (void*)SYM_NOT);
+
+	ht_insert(keywords, "class",       (void*)KW_CLASS);
+	ht_insert(keywords, "constructor", (void*)KW_CONSTRUCTOR);
+	ht_insert(keywords, "function",    (void*)KW_FUNCTION);
+	ht_insert(keywords, "method",      (void*)KW_METHOD);
+	ht_insert(keywords, "static",      (void*)KW_STATIC);
+	ht_insert(keywords, "field",       (void*)KW_FIELD);
+	ht_insert(keywords, "var",         (void*)KW_VAR);
+	ht_insert(keywords, "int",         (void*)KW_INT);
+	ht_insert(keywords, "char",        (void*)KW_CHAR);
+	ht_insert(keywords, "boolean",     (void*)KW_BOOLEAN);
+	ht_insert(keywords, "void",        (void*)KW_VOID);
+	ht_insert(keywords, "null",        (void*)KW_NULL);
+	ht_insert(keywords, "true",        (void*)KW_TRUE);
+	ht_insert(keywords, "false",       (void*)KW_FALSE);
+	ht_insert(keywords, "let",         (void*)KW_LET);
+	ht_insert(keywords, "do",          (void*)KW_DO);
+	ht_insert(keywords, "if",          (void*)KW_IF);
+	ht_insert(keywords, "else",        (void*)KW_ELSE);
+	ht_insert(keywords, "while",       (void*)KW_WHILE);
+	ht_insert(keywords, "return",      (void*)KW_RETURN);
+	ht_insert(keywords, "this",        (void*)KW_THIS);
+
+	*/
+
+static const char* SYM_OPAREN  = "(";
+static const char* SYM_CPAREN  = ")";
+static const char* SYM_OBRACK  = "[";
+static const char* SYM_CBRACK  = "]";
+static const char* SYM_OCBRACK = "{";
+static const char* SYM_CCBRACK = "}";
+static const char* SYM_PERIOD  = ".";
+static const char* SYM_COMMA   = ",";
+static const char* SYM_SEMI    = ";";
+static const char* SYM_PLUS    = "+";
+static const char* SYM_MINUS   = "-";
+static const char* SYM_MULT    = "*";
+static const char* SYM_DIV     = "/";
+static const char* SYM_OR      = "|";
+static const char* SYM_AND     = "&amp;";
+static const char* SYM_LT      = "&lt;";
+static const char* SYM_GT      = "&gt;";
+static const char* SYM_QUOT    = "&quot;";
+static const char* SYM_EQUAL   = "=";
+static const char* SYM_NOT     = "~";
+
+static const char* KW_CLASS       = "class";
+static const char* KW_CONSTRUCTOR = "constructor";
+static const char* KW_FUNCTION    = "function";
+static const char* KW_METHOD      = "method";
+static const char* KW_STATIC      = "static";
+static const char* KW_FIELD       = "field";
+static const char* KW_VAR         = "var";
+static const char* KW_INT         = "int";
+static const char* KW_CHAR        = "char";
+static const char* KW_BOOLEAN     = "boolean";
+static const char* KW_VOID        = "void";
+static const char* KW_NULL        = "null";
+static const char* KW_TRUE        = "true";
+static const char* KW_FALSE       = "false";
+static const char* KW_LET         = "let";
+static const char* KW_DO          = "do";
+static const char* KW_IF          = "if";
+static const char* KW_ELSE        = "else";
+static const char* KW_WHILE       = "while";
+static const char* KW_RETURN      = "return";
+static const char* KW_THIS        = "this";
+
+// keep track of line number and col number
+char fgetc_cnt(FILE *f)
+{
+	static bool new_line = false;
+
+	char c = fgetc(f);
+	col_num++;
+
+	if (new_line)
+	{
+		new_line = false;
+		line_num++;
+		col_num = 0;
+	}
+
+	if (c == '\n')
+	{
+		new_line = true;
+	}
+	return c;
+}
